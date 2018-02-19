@@ -10,12 +10,22 @@
 
 using namespace std;
 
+void doPrintInput(int x)
+{
+	cout << "input : " << x << endl;
+}
+
+int userInput()
+{
+	int userInp = 0;
+	cout << "enter a number: ";
+	cin >> userInp;
+	return userInp;
+}
+
 int main()
 {
-	int v = 5;
-	cout << "enter a number: ";
-	cin >> v;
-	cout << "input = " << v << endl;
+	doPrintInput(userInput());
 	return 0;
 }
 
