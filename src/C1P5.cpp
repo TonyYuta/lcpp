@@ -23,9 +23,9 @@ int userInput()
 	return userInp;
 }
 
-int main()
-{
-	doPrintInput(userInput());
-	return 0;
-}
+//int main()
+//{
+//	doPrintInput(userInput());
+//	return 0;
+//}
 
