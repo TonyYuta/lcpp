@@ -81,9 +81,21 @@ int main()
 
 	//cstylestringlength();
 	//copyCstyleString();
-	variableAndAddress();
+	//variableAndAddress();
+
+	//char mname[] = "Billy";
+	//cout << mname << endl;
+
+	//const char *hname = "July";
+	//cout << hname << '\n';
 
 
+	int iArr[3] = {2, 4, 6};
+	char cArr[] = "c-style";
+	const char *constCh = "const char";
+	cout << iArr << '\n';
+	cout << cArr << '\n';
+	cout << constCh << '\n';
 
 	return 0;
 }
